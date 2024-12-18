@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<!--
+Created using JS Bin
+http://jsbin.com
+
+Copyright (c) 2024 by anonymous (http://jsbin.com/joviposefo/1/edit)
+
+Released under the MIT license: http://jsbin.mit-license.org
+-->
+<meta name="robots" content="noindex">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centered Buttons</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+        }
+
+        .title {
+            font-size: 15px;
+            font-weight: bold;
+            margin-bottom: 20px;
+            text-align: center;
+      }
+      
+
+        .button-container {
+            display: flex;
+            gap: 20px;
+            text-align: center;
+        }
+
+        .button {
+            width: 150px;
+            height: 150px;
+            background-color: #007bff;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-decoration: none;
+            font-size: 16px;
+            font-weight: bold;
+            border-radius: 10px;
+            transition: background-color 0.3s;
+        }
+
+        .button:hover {
+            background-color: #0056b3;
+        }
+      .mar{font-size:13px;
+           margin:20px;
+          text-align:center;
+          line-height: 1.6;
+      
+      
+      }
+    </style>
+</head>
+<body>
+    <div class="title">익명으로 말하기</div>
+    <div class="button-container">
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSenHoP7NqNwJIG6xKnOW0rNGfN_bT3CQkDA5fFaNBbO_FJ8aQ/viewform?usp=sf_link" class="button" target="_blank">
+            평가하기<br>' 0 '
+        </a>
+        <a href="https://script.google.com/macros/s/AKfycbwMC9mQtXXh2dcsjvnUL5VvRBA93anKvlBlqN4oBrYkaUD3O_hXMGEOOtS4jHUGSmH9/exec" class="button" target="_blank">
+            평가보기<br>0 _ 0
+      </a>
+      
+    </div>
+  <div class="mar">
+  우리가 하는 모든 말에는 숨은 맥락이나 거짓이 들어가 있을 수 있습니다.<br>
+  이곳에서는 이러한 제한을 모두 풀어보고자 합니다. <br>
+  익명으로 평가한다면 저는 어떤 사람이고 어떤 사람으로 비쳤까을요?</div>
+</body>
+</html>
