@@ -1,0 +1,22 @@
+!DOCTYPE html>
+<head>
+    <title>반응형2</title>
+ <style> 
+ <link rel="styleheet" href="">
+ <script src=""></>
+
+   #sgsg{animation: moveSideToSide 20s infinite alternate;}
+  @keyframes moveSideToSide {0% { transform: translateX(0); }100% { transform: translateX(200px); }
+ </style>
+</head>
+<body>
+ 
+<div id=sgsg><h6>슬금슬금</h6></div>
+<p>시간이 슬금슬금 지나간다. 5분.. 10분.. <br>
+  20분.. 나의 머릿속 나룻배도 제자리에서 <br>
+ 슬금슬금 멀어진다. 5m.. 10m.. 20m.. <br>
+  정신을 차려보면 슬금슬금 멀어진 거리가 <br>
+  참 멀게 느껴진다. 다시 제자리로 노를 <br>저어본다.
+</p>
+</body>
+</html>
